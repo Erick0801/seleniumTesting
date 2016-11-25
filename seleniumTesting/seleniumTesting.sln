@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seleniumTesting", "seleniumTesting\seleniumTesting.csproj", "{073DB537-148D-46B1-B924-0D8784D13590}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seleniumLib", "seleniumLib\seleniumLib.csproj", "{BEF62F08-913F-4AD6-B25F-E3F2422362F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{073DB537-148D-46B1-B924-0D8784D13590}.Debug|x86.Build.0 = Debug|x86
 		{073DB537-148D-46B1-B924-0D8784D13590}.Release|x86.ActiveCfg = Release|x86
 		{073DB537-148D-46B1-B924-0D8784D13590}.Release|x86.Build.0 = Release|x86
+		{BEF62F08-913F-4AD6-B25F-E3F2422362F4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BEF62F08-913F-4AD6-B25F-E3F2422362F4}.Debug|x86.Build.0 = Debug|Any CPU
+		{BEF62F08-913F-4AD6-B25F-E3F2422362F4}.Release|x86.ActiveCfg = Release|Any CPU
+		{BEF62F08-913F-4AD6-B25F-E3F2422362F4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

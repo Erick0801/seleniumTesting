@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 
-namespace seleniumTesting
+namespace seleniumLib
 {
 	public class WebDriverFactory
 	{
@@ -26,6 +26,15 @@ namespace seleniumTesting
 			IWebDriver webDriver = null;
 
 			DesiredCapabilities capability = new DesiredCapabilities();
+			String browserName = browser.Name;
+			capability.IsJavaScriptEnabled = true;
+
+			// In case there is no Hub
+			if (gridHubUrl == null || gridHubUrl.Length == 0)
+			{
+				return getInstance(gridHubUrl, browser, username, password);
+			}
+
 
 		}
 	}
