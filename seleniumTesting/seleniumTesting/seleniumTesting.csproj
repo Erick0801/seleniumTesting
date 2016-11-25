@@ -30,7 +30,6 @@
     <Reference Include="WebDriver">
       <HintPath>..\packages\Selenium.WebDriver.3.0.1\lib\net40\WebDriver.dll</HintPath>
     </Reference>
-    <Reference Include="System.Drawing" />
     <Reference Include="WebDriver.Support">
       <HintPath>..\packages\Selenium.Support.3.0.1\lib\net40\WebDriver.Support.dll</HintPath>
     </Reference>
@@ -44,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Util\Browser.cs" />
+    <Compile Include="WebDriver\WebDriverFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
